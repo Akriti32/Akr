@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fcontainer{
+    display: grid;
+    grid-template-columns: 20% 40% 40% ;
+
+}
+.fitems{
+    background-color: rgb(225, 165, 1);
+    padding: 10px;
+    border: 3px solid rgb(69, 15, 194);
+}
+.navbar, .footer, .copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
